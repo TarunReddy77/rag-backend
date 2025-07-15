@@ -1,0 +1,45 @@
+
+
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Environment variables
+*.env
+
+# Logs
+*.log
+
+# Python build and distribution files
+*.egg-info/
+dist/
+build/
+
+# PyCharm specific
+.idea/
+
+# Keypair
+*.pem
+
+# Docker
+*.pid
+*.swp
+.dockerignore
+
+# Ignore resumes directory (if it's dynamically created or contains output files)
+#app/resumes/
+
+# YAML and configuration files (if sensitive)
+*.yaml
+*.yml
+
+# HTTP test files
+*.http
+
+# Ignore specific user-created temporary or cache files
+*.bak
+*.tmp

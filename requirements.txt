@@ -3,3 +3,10 @@ uvicorn
 streamlit
 python-multipart
 pymupdf
+langchain
+langchain-community
+langchain_openai
+faiss-cpu
+openai
+tiktoken
+python-dotenv
