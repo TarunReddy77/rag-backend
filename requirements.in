@@ -1,0 +1,26 @@
+# Core Web Frameworks
+fastapi
+uvicorn
+streamlit
+python-multipart
+
+# AI & LangChain
+langchain
+langchain-community
+langchain-openai
+langchain-pinecone
+openai
+pinecone
+tiktoken
+
+# Data & Document Handling
+PyMuPDF
+pandas
+numpy
+
+# Utilities & Deployment
+python-dotenv
+awsebcli # For AWS Elastic Beanstalk CLI, if needed
+
+# Testing (optional, for development)
+pytest
