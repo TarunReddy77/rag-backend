@@ -43,7 +43,7 @@ jobs:
         id: task-def
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
-          task-definition: ${{ secrets.ECS_TASK_DEFINITION }}
+          task-definition: ${{ secrets.ECS_TASK_DEFINITION_FAMILY }} # This points to the family name in AWS
           container-name: ${{ secrets.ECR_REPOSITORY }}
           image: ${{ steps.build-image.outputs.image }}
 
