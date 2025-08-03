@@ -1,9 +1,13 @@
 name: Deploy to Amazon ECS
 
 on:
+  # Trigger on pushes (including merges) to the main branch
   push:
     branches:
-      - "main" # Trigger the workflow on pushes to the main branch
+      - "main"
+
+  # Also allow manual triggering from the Actions tab
+  workflow_dispatch:
 
 permissions:
   id-token: write # Required for OIDC authentication
